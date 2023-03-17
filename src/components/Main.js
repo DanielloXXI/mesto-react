@@ -4,23 +4,22 @@ import Card from "./Card";
 
 function Main(props) {
 
-    const [userName, setUserName] = React.useState();
-    const [userDescription, setUserDescription] = React.useState();
-    const [userAvatar, setUserAvatar] = React.useState();
+    const [userName, setUserName] = React.useState("");
+    const [userDescription, setUserDescription] = React.useState("");
+    const [userAvatar, setUserAvatar] = React.useState("");
     const [cards, setCards] = React.useState([]);
 
     React.useEffect(() => {
-        function getUserInfo() {
             Promise.all([api.getInfoAboutUser(), api.getInitialCards()])
                 .then((res) => {
                     setUserName(res[0].name);
                     setUserDescription(res[0].about);
                     setUserAvatar(res[0].avatar);
                     setCards(res[1]);
+                })
+                .catch((err) => {
+                    console.log(`Ошибка ${err}`);
                 });
-        }
-
-        getUserInfo();
     }, []);
 
     return (
@@ -41,7 +40,7 @@ function Main(props) {
             </section>
             <section className="elements">
                 {cards.map((card) => (
-                    <Card card={card} onCardClick={props.onImagePopup}/>
+                    <Card card={card} onCardClick={props.onImagePopup} key={card._id}/>
                 ))}
             </section>
         </main>
