@@ -79,7 +79,7 @@ function App() {
 
         <PopupWithForm name={"add"} title={"Новое место"} isOpened={isAddPlacePopupOpen} onClose={closeAllPopups} buttonText={"Создать"}>
           <label className="popup__fieldset">
-            <input type="text" name="title" className="popup__input popup__input_title" placeholder="Названиее"
+            <input type="text" name="title" className="popup__input popup__input_title" placeholder="Названиеее"
               id="title" minLength="2" maxLength="30" required />
             <span className="popup__input-error title-error"></span>
           </label>
