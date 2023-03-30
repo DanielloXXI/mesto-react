@@ -8,6 +8,10 @@ function Card(props) {
         props.onCardClick(props.card);
     }
 
+    function handleDeleteClick() {
+        props.onCardDelete(props.card);
+    }
+
     function handleLikeClick() {
         props.onCardLike(props.card);
     }
@@ -22,7 +26,7 @@ function Card(props) {
 
     return (
         <div className="element">
-            {isOwn && <img src={trash} className="element__delete" alt="удалить" />}
+            {isOwn && <img src={trash} className="element__delete" alt="удалить" onClick={handleDeleteClick}/>}
             <img src={props.card.link} onClick={handleClick} alt={props.name} className="element__image" />
             <div className="element__description">
                 <h2 className="element__name">{props.card.name}</h2>
