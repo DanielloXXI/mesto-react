@@ -16,10 +16,11 @@ function Card(props) {
         props.onCardLike(props.card);
     }
 
-    const UserContext = React.useContext(CurrentUserContext);
+    const currentUser = React.useContext(CurrentUserContext);
 
-    const isOwn = props.card.owner._id === UserContext._id;
-    const isLiked = props.card.likes.some(i => i._id === UserContext._id);
+
+    const isOwn = props.card.owner._id === currentUser._id;
+    const isLiked = props.card.likes.some(i => i._id === currentUser._id);
     const cardLikeButtonClassName = (
         `element__like-icon ${isLiked && 'element__like-icon_active'}`
     );
