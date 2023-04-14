@@ -1,6 +1,6 @@
 <h1 align="center">Project "Place" in pure JavaScript</h1>
 
-<img src="./src/images/ReadMe/Main.png" width="100%">
+<img src="./src/images/ReadMe/main.png" width="100%">
 
 <h2 align="center"><a  href="https://danielloxxi.github.io/mesto-react/">Test site</a></h2>
 
