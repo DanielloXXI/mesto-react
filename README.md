@@ -1,4 +1,4 @@
-<h1 align="center">Project "Place" in pure JavaScript</h1>
+<h1 align="center">Project "Mesto" on the React!</h1>
 
 <img src="./src/images/ReadMe/main.png" width="100%">
 
@@ -33,12 +33,10 @@ The project allows you to share cards with users, view them, delete and like the
 
 <img src="./src/images/ReadMe/Avatar.gif" width="100%">
 
-## Are you leaving already? 
+## Try the oldest version in pure JavaScript!
 
-### You can delete your card and exit your profile!
+<h2 align="center"><a href="https://github.com/DanielloXXI/mesto"><img src="./src/images/ReadMe/clickme.png"><a></h2>
 
-<img src="./src/images/ReadMe/Exit.gif" width="100%">
+## Try the new version on React!
 
-## Try the old version in pure JavaScript!
-
-<h2 align="center"><a href="https://github.com/DanielloXXI/mesto-react"><img src="./src/images/ReadMe/clickme.png"></a></h2>
+<h2 align="center"><a href="https://github.com/DanielloXXI/react-mesto-auth"><img src="./src/images/ReadMe/clickme.png"></a></h2>
