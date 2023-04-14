@@ -41,4 +41,4 @@ The project allows you to share cards with users, view them, delete and like the
 
 ## Try the old version in pure JavaScript!
 
-<center><a href="https://github.com/DanielloXXI/mesto-react"><img src="./src/images/ReadMe/clickme.png"><a></center>
+<h2 align="center"><a href="https://github.com/DanielloXXI/mesto-react"><img src="./src/images/ReadMe/clickme.png"></a></h2>
