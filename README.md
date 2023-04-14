@@ -33,12 +33,10 @@ The project allows you to share cards with users, view them, delete and like the
 
 <img src="./src/images/ReadMe/Avatar.gif" width="100%">
 
-## Are you leaving already? 
-
-### You can delete your card and exit your profile!
-
-<img src="./src/images/ReadMe/Exit.gif" width="100%">
-
 ## Try the oldest version in pure JavaScript!
 
 <center><a href="https://github.com/DanielloXXI/mesto"><img src="./src/images/ReadMe/clickme.png"><a></center>
+
+## Try the new version on React with authorization!
+
+<center><a href="https://github.com/DanielloXXI/react-mesto-auth"><img src="./src/images/ReadMe/clickme.png"><a></center>
