@@ -1,4 +1,4 @@
-<h1 align="center">Project "Place" in pure JavaScript</h1>
+<h1 align="center">Project "Mesto" on the React!</h1>
 
 <img src="./src/images/ReadMe/main.png" width="100%">
 
