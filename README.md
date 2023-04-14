@@ -41,6 +41,4 @@ The project allows you to share cards with users, view them, delete and like the
 
 ## Try the oldest version in pure JavaScript!
 
-## Try the oldest version in pure JavaScript!
-
 <center><a href="https://github.com/DanielloXXI/mesto"><img src="./src/images/ReadMe/clickme.png"><a></center>
